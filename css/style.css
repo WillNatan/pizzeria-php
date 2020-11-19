@@ -17,7 +17,7 @@ nav {
 
 .hero-section h1 {
   color: #363636;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .hero-section p {
@@ -95,4 +95,19 @@ nav {
 
 .bg-white{
   background-color: white;
+}
+
+.barq-link{
+  color:#363636;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
+  text-decoration: none;
+}
+
+.barq-link:hover{
+  color:#777777;
+  text-decoration: none;
+}
+
+#navbar-logo{
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
 }
