@@ -52,7 +52,14 @@ if(isset($_POST["nom"])){
     include_once("../header.php");
 ?>
 <div class="container-fluid" id="baradmin">
-    
+    <div class="row">
+        <div class="col-md-6">
+            
+        </div>
+        <div class="col-md-6">
+                <p>Administration</p>
+            </div>
+    </div>
 </div>
 <div class="container">
         <form class="form" action="ajout_client.php" method="post">
