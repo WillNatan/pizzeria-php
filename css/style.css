@@ -118,3 +118,34 @@ nav {
   width: 250px;
   height: 100%;
 }
+
+.details-section{
+  margin-top: 250px;
+}
+
+.product-content h1{
+  color: #f9b570;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.product-content .description{
+  color: #B2B2B2;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.product-content .price{
+  color: #f9b570;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image-repas{
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 500px;
+  max-height: 500px;
+}
