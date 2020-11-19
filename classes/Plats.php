@@ -4,7 +4,7 @@ class Plats
 {
     private $id;
     private $nom;
-    private $description;
+    private $detail;
     private $photo;
     private $prix;
 
@@ -49,26 +49,6 @@ class Plats
     }
 
     /**
-     * Get the value of description
-     */ 
-    public function getDescription()
-    {
-        return $this->description;
-    }
-
-    /**
-     * Set the value of description
-     *
-     * @return  self
-     */ 
-    public function setDescription($description)
-    {
-        $this->description = $description;
-
-        return $this;
-    }
-
-    /**
      * Get the value of photo
      */ 
     public function getPhoto()
@@ -104,6 +84,26 @@ class Plats
     public function setPrix($prix)
     {
         $this->prix = $prix;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of detail
+     */ 
+    public function getDetail()
+    {
+        return $this->detail;
+    }
+
+    /**
+     * Set the value of detail
+     *
+     * @return  self
+     */ 
+    public function setDetail($detail)
+    {
+        $this->detail = $detail;
 
         return $this;
     }

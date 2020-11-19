@@ -6,10 +6,9 @@ if(isset($_POST["nom"])){
     $plat=new Plats();
     $plat->setId(NULL);
     $plat->setNom($_POST["nom"]);
-    $plat->setDescription($_POST["detail"]);
+    $plat->setDetail($_POST["detail"]);
     $plat->setPhoto($_POST["photo"]);
     $plat->setPrix($_POST["prix"]);
-    
     $requete=$db->prepare("INSERT INTO plats (id,nom,detail,photo,prix) values (:id,:nom,:detail,:photo,:prix)");
     $requete->execute(dismount($plat));
     }
