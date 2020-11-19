@@ -7,6 +7,7 @@ class Dessert
     private $description;
     private $photo;
     private $prix;
+    private $test;
 
     /**
      * Get the value of id
