@@ -5,7 +5,7 @@
     <title>Accueil</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="100" alt=""></a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -50,6 +50,64 @@
                         <button class='btn-barq-primary justify-self-center align-self-center'>
                             Commencez maintenant !
                         </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-repas">
+        <div class="container">
+            <h1 class="text-center">Repas du jour</h1>
+            <div class="d-flex justify-content-center">
+                <div class="divider"></div>
+            </div>
+            <div class="repas mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="barq-card">
+                                <div class="barq-card-img">
+                                    <img src="img/logo.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="barq-card-body">
+                                    <h4>Rougail Saucisses</h4>
+                                    <p class="price">6,25 €</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="barq-card">
+                                <div class="barq-card-img">
+                                    <img src="img/logo.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="barq-card-body">
+                                    <h4>Rougail Saucisses</h4>
+                                    <p class="price">6,25 €</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="barq-card">
+                                <div class="barq-card-img">
+                                    <img src="img/logo.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="barq-card-body">
+                                    <h4>Rougail Saucisses</h4>
+                                    <p class="price">6,25 €</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="barq-card">
+                                <div class="barq-card-img">
+                                    <img src="img/logo.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="barq-card-body">
+                                    <h4>Rougail Saucisses</h4>
+                                    <p class="price">6,25 €</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
