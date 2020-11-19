@@ -27,13 +27,13 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Repas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -41,12 +41,18 @@
     </nav>
     <section class="hero-section">
         <div class="container">
-            <h1>Le Bon Barquette</h1>
-            <p>Commandez votre barquette sur notre
-                site web !</p>
-                <button class='btn-barq-primary'>
-                    Commencez maintenant !
-                </button>
+            <div class="row">
+                <div class="col-md-7">
+                    <div class=" d-flex flex-column">
+                        <h1>Le Bon Barquette</h1>
+                        <p>Commandez votre barquette sur notre
+                            site web !</p>
+                        <button class='btn-barq-primary justify-self-center align-self-center'>
+                            Commencez maintenant !
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Optional JavaScript -->

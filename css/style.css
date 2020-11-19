@@ -18,4 +18,8 @@
 
 .btn-barq-primary{
     background-color: #F9B570;
+    padding: 1rem 1.5rem;
+    border:none;
+    border-radius: 50px;
+    color: white;
 }
