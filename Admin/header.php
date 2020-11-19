@@ -23,7 +23,7 @@
         </div>
         <nav>
             <ul class="nav">
-                <li id="lien_liste"><a href="#"><i class="fa fa-columns"></i> Liste des repas</a></li>
+                <li id="lien_liste"><a href="<?php echo $ROOT?>Plat/liste_plats.php"><i class="fa fa-columns"></i> Liste des repas</a></li>
                 <li id="lien_ajout"><a href="#"><i class="fa fa-plus"></i> Ajouter repas</a></li>
             </ul>
     </div>

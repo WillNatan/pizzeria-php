@@ -68,6 +68,7 @@ class Plats
         return $this;
     }
 
+
     /**
      * Get the value of prix
      */ 

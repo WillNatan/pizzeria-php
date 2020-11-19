@@ -28,10 +28,6 @@
   color: rgb(179, 179, 179);
 }
 
-#navbar-logo {
-  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
-}
-
 #sidebar.active {
   background-color: #363636;
   position: fixed;
@@ -59,7 +55,7 @@
 }
 
 .main-content {
-  padding: 0 10px;
+  padding: 30px;
   transition: all 0.2s ease-in-out;
 }
 
@@ -75,9 +71,6 @@
 }
 
 .btn-open-sidebar {
-  position: relative;
-  left: 15px;
-  top: 15px;
   margin-bottom: 15px;
   z-index: 1;
   border: none;
@@ -85,7 +78,8 @@
   background-color: white;
   color: #363636;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(156, 156, 156, 1);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(156, 156, 156, 1);
-  box-shadow: 0px 0px 5px 0px rgba(156, 156, 156, 1);
+}
+
+.liste-plats h1{
+  font-size: 1.5rem;
 }
