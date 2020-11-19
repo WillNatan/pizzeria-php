@@ -48,27 +48,10 @@ if(isset($_POST["nom"])){
         return $array;
     }
 
-        
+    $ROOTCSS = '../';
+    $ROOT = '../';
     include_once("../Admin/header.php");
 ?>
-<div class="container-fluid" id="sidebar">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="../img/logo.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" id="sidebar-logo">
-        </div>
-        <div class="col-md-6">
-            <p id="txtadmin">Administration</p>
-        </div>
-    </div>
-    <nav>
-      <ul>
-        <li id="lien_liste"><a href="#">Liste des repas</a></li>
-        <li id="lien_ajout"><a href="#">Ajouter repas</a></li>
-      </ul>
-</div>
-
-
-</div>
 <div class="container">
         <form class="form" action="ajout_client.php" method="post">
             <div class="form-group">
