@@ -49,7 +49,7 @@ if(isset($_POST["nom"])){
     }
 
         
-    include_once(../"header.php");
+    include_once("../header.php");
 ?>
 <div class="container-fluid" id="baradmin">
     
@@ -69,4 +69,4 @@ if(isset($_POST["nom"])){
             </div>
         </form>
     </div>
-<?php include_once(../"footer.php");?>
+<?php include_once("../footer.php");?>
