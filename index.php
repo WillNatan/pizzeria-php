@@ -23,52 +23,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="">
+                        <a href="Plat/details.php">
                             <div class="barq-card">
                                 <div class="barq-card-img">
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="barq-card-body">
-                                    <a href="" class="barq-link">
+                                    <a href="Plat/details.php" class="barq-link">
                                         <h4>Rougail Saucisses</h4>
                                     </a>
                                     <p class="price">6,25 €</p>
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="barq-card">
-                            <div class="barq-card-img">
-                                <img src="img/logo.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="barq-card-body">
-                                <h4>Rougail Saucisses</h4>
-                                <p class="price">6,25 €</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="barq-card">
-                            <div class="barq-card-img">
-                                <img src="img/logo.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="barq-card-body">
-                                <h4>Rougail Saucisses</h4>
-                                <p class="price">6,25 €</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="barq-card">
-                            <div class="barq-card-img">
-                                <img src="img/logo.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="barq-card-body">
-                                <h4>Rougail Saucisses</h4>
-                                <p class="price">6,25 €</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
