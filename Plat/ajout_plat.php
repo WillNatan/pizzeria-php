@@ -6,7 +6,7 @@ if(isset($_POST["nom"])){
     $plat=new Plats();
     $plat->setId(NULL);
     $plat->setNom($_POST["nom"]);
-    $plat->setDescription($_POST["detail"]);
+    $plat->setDetail($_POST["detail"]);
     $plat->setPhoto($_POST["photo"]);
     $plat->setPrix($_POST["prix"]);
     
