@@ -1,0 +1,21 @@
+.hero-section{
+    background: url('../img//bg.png') center center;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1{
+    color: #363636;
+    font-size: 5rem;
+}
+
+.hero-section p{
+    color:rgba(138, 138, 138, 1);
+    font-size: 1.4rem;
+}
+
+.btn-barq-primary{
+    background-color: #F9B570;
+}
