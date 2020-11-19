@@ -149,3 +149,33 @@ nav {
   max-width: 500px;
   max-height: 500px;
 }
+
+#txtadmin{
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+#sidebar-logo {
+  size: smaller;
+  position : fixed;
+  z-index: 2;
+}
+
+#lien_liste{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30%;
+  margin-left: 25%;
+}
+
+#lien_ajout{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30%;
+  margin-left: 25%;
+}
