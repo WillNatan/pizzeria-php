@@ -9,14 +9,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md fixed-top">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="/img/logo.png" id="navbar-logo" width="100" alt="logo"></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" id="navbar-logo" width="100" alt="logo"></a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

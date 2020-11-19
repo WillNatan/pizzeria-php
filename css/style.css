@@ -112,9 +112,38 @@ nav {
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
 }
 
-#baradmin  {
+#sidebar  {
   background-color: #363636;
   position: fixed;
-  width: 250px;
+  width: 350px;
   height: 100%;
+}
+
+#txtadmin{
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+#sidebar-logo {
+  position : fixed;
+  z-index: 2;
+}
+
+#lien_liste{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30%;
+  margin-left: 25%;
+}
+
+#lien_ajout{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30%;
+  margin-left: 25%;
 }
