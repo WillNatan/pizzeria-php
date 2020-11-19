@@ -3,7 +3,7 @@
 }
 
 nav {
-  background-color: white;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .2s;
 }
 
 .hero-section {
@@ -91,4 +91,8 @@ nav {
 .navbar-nav .nav-link:hover{
     color: #8b8b8b;
 
+}
+
+.bg-white{
+  background-color: white;
 }
