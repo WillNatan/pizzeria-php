@@ -111,3 +111,10 @@ nav {
 #navbar-logo{
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
 }
+
+#baradmin  {
+  background-color: #363636;
+  position: fixed;
+  width: 250px;
+  height: 100%;
+}
