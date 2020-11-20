@@ -1,5 +1,5 @@
 <?php
-include_once("../classes/Plats.php");
+include_once("../../classes/Plats.php");
 $db =new PDO("mysql:host=127.0.0.1;dbname=lebonbarquette","root","",array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8") );
 
 if(isset($_POST["nom"])){
@@ -11,6 +11,7 @@ if(isset($_POST["nom"])){
     $plat->setPrix($_POST["prix"]);
     $requete=$db->prepare("INSERT INTO plats (id,nom,detail,photo,prix) values (:id,:nom,:detail,:photo,:prix)");
     $requete->execute(dismount($plat));
+    header('Location: ./');
     }
     //var_dump($utilisateur2);
     
@@ -90,11 +91,12 @@ if(isset($_POST["nom"] )){
     }
     */
 
-    $ROOTCSS = '../';
+    $ROOTCSS_JS = '../../';
     $ROOT = '../';
-    include_once("../Admin/header.php");
+    include_once("../header.php");
 ?>
 <div class="container">
+    <h4>Ajouter un plat</h4>
         <form class="form" action="ajout_plat.php" method="post">
             <div class="form-group">
             <label for="">Nom</label>
@@ -105,8 +107,8 @@ if(isset($_POST["nom"] )){
             <input type="text" name="photo" id="photo" class="form-control" placeholder="">
             <label for="">Prix</label>
             <input type="number" name="prix" id="prix" class="form-control" placeholder="">
-            <button type="submit" class="btn btn-primary" action="">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3" action="">Ajouter</button>
             </div>
         </form>
     </div>
-<?php include_once("../Admin/footer.php");?>
+<?php include_once("../footer.php");?>
