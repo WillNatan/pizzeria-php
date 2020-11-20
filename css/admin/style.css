@@ -1,85 +1,108 @@
-#txtadmin {
-  text-align: left;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+*{
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.nav {
-  list-style: none;
+header{
+  position: fixed;
+  background-color: #363636;
+  padding: 20px;
+  width:100%;
   display: flex;
-  flex-direction: column;
-  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height:70px;
 }
 
-.nav li {
-  margin-bottom: 40px;
+.left_area h3{
+  color: #FFF;
+  margin: 0 ;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
-.nav li a {
-  color: white;
-  transition: all ease-in-out 0.2s;
+.logout_btn{
+  color:#FFF;
+  padding:12px;
+  border-radius: 24px;
+  font-weight: 500;
   text-decoration: none;
-  font-size: 1.4rem;
-  font-weight: 300;
+  transition: all ease-in-out .2s;
 }
 
-.nav li a:hover {
-  color: rgb(179, 179, 179);
+.logout_btn:hover{
+  text-decoration: none;
+  color:#FFF;
+  background-color: rgba(255, 255, 255, 0.041);
 }
 
-#sidebar.active {
+.sidebar{
   background-color: #363636;
+  margin-top: 70px;
+  padding-top: 30px;
   position: fixed;
-  width: 300px;
   left: 0;
+  width: 250px;
   height: 100%;
-  padding: 15px;
-  transition: all 0.2s ease-in-out;
 }
 
-#sidebar {
-  background-color: #363636;
-  position: fixed;
-  width: 300px;
-  left: -300px;
-  height: 100%;
-  padding: 15px;
-  transition: all 0.2s ease-in-out;
-  z-index: 9998;
+.sidebar h4{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.main-content.pulled {
-  padding: 0 10px;
-  transition: all 0.2s ease-in-out;
+.sidebar a{
+  color: #FFF;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  font-weight: 400;
 }
 
-.main-content {
-  padding: 30px;
-  transition: all 0.2s ease-in-out;
+.sidebar a:hover{
+  background: #f9b570;
 }
 
-.close-sidebar {
-  border: none;
-  background: transparent;
-  color: white;
-  font-size: 1.5rem;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  z-index: 9999;
+.sidebar a svg{
+  margin-right: 10px;
 }
 
-.btn-open-sidebar {
-  margin-bottom: 15px;
+.sidebar_btn{
   z-index: 1;
-  border: none;
-  padding: 5px;
-  background-color: white;
-  color: #363636;
-  border-radius: 5px;
+  color: #FFF;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: all ease-in-out .2s;
 }
 
-.liste-plats h1{
-  font-size: 1.5rem;
+.sidebar_btn:hover{
+  color: #f9b570;
+}
+
+.sidebar.toggled{
+  left: -190px;
+}
+
+.sidebar.toggled a span{
+  display: none;
+}
+
+.sidebar.toggled a{
+  margin-left: 170px;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  padding-top: 90px;
 }

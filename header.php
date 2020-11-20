@@ -34,6 +34,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo $ROOT?>">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo $ROOT?>admin/">Administration</a>
+                    </li>
                 </ul>
             </div>
         </div>
