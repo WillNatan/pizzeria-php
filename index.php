@@ -51,7 +51,7 @@ $repas=$requete->fetchAll();
                                     <a href="admin/plat/details.php?id=<?php echo $plats->getId(); ?>" class="barq-link">
                                         <h4><?php echo $plats->getNom(); ?></h4>
                                     </a>
-                                    <p class="price"><?php echo $plats->getPrix()."€";?></p>
+                                    <p class="price"><?php echo $plats->getPrix()."";?></p>
                                 </div>
                             </div>
                         </a>
