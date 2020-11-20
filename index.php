@@ -1,7 +1,20 @@
-
 <?php 
 $ROOT = './';
 include_once('header.php');
+include_once('classes/Plats.php');
+
+$db =new PDO("mysql:host=127.0.0.1;dbname=lebonbarquette","root","",array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8") );
+$requete=$db->prepare("select * from plats");
+
+//$requete->setFetchMode(PDO::FETCH_ASSOC);
+
+//$resultat=$requete->fetchAll();
+//var_dump($resultat);
+$requete->setFetchMode(PDO::FETCH_CLASS,'Plats');
+$requete->execute();
+$repas=$requete->fetchAll();
+
+
 ?>
 <section class="hero-section">
     <div class="container">
@@ -23,9 +36,12 @@ include_once('header.php');
         <div class="d-flex justify-content-center">
             <div class="divider"></div>
         </div>
+
         <div class="repas mt-5">
             <div class="container">
                 <div class="row">
+                    <?php foreach($repas as $plats){ ?>
+                    <?php $plat->getId();?>
                     <div class="col-md-3">
                         <a href="Plat/details.php">
                             <div class="barq-card">
@@ -34,16 +50,19 @@ include_once('header.php');
                                 </div>
                                 <div class="barq-card-body">
                                     <a href="Plat/details.php" class="barq-link">
-                                        <h4>Rougail Saucisses</h4>
+                                        <h4><?php echo $plats->getNom(); ?></h4>
                                     </a>
-                                    <p class="price">6,25 €</p>
+                                    <p class="price"><?php echo $plats->getPrix()."€";?></p>
                                 </div>
                             </div>
                         </a>
+
                     </div>
+                    <?php } ?>
                 </div>
             </div>
-        </div> 
+        </div>
+
     </div>
 </section>
 
