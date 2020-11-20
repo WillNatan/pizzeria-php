@@ -41,8 +41,7 @@ $repas=$requete->fetchAll();
             <div class="container">
                 <div class="row">
                     <?php foreach($repas as $plats){ ?>
-                    <?php $plats->getId();?>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-3"> 
                         <a href="admin/plat/details.php?id=<?php echo $plats->getId(); ?>">
                             <div class="barq-card">
                                 <div class="barq-card-img">
