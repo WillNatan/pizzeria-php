@@ -29,7 +29,7 @@ $repas=$requete->fetch();
         <div class="row">
             <div class="col-md-6">
                 <div class="image-repas">
-                    <img src="../.<?php if(!is_null($plat->getPhoto())){$plat->getPhoto()} else {} ?>" class="img-fluid" alt="">
+                    <img src="../.<?php if(!is_null($plat->getPhoto())){$plat->getPhoto()}else {} ?>" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-md-6">

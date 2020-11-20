@@ -41,15 +41,15 @@ $repas=$requete->fetchAll();
             <div class="container">
                 <div class="row">
                     <?php foreach($repas as $plats){ ?>
-                    <?php $plat->getId();?>
+                    <?php $plats->getId();?>
                     <div class="col-md-3">
-                        <a href="Plat/details.php">
+                        <a href="admin/plat/details.php">
                             <div class="barq-card">
                                 <div class="barq-card-img">
                                     <img src="img/logo.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="barq-card-body">
-                                    <a href="Plat/details.php" class="barq-link">
+                                    <a href="admin/plat/details.php" class="barq-link">
                                         <h4><?php echo $plats->getNom(); ?></h4>
                                     </a>
                                     <p class="price"><?php echo $plats->getPrix()."€";?></p>
